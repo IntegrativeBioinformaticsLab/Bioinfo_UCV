@@ -1,17 +1,29 @@
-import sys
+from Bio import SeqIO
 
-file = sys.argv[1]
+#defining variable
+count=0
 
-reads = 0
-lengths = []
 
-with open(file) as f:
-    for i, line in enumerate(f):
-        if i % 4 == 1:  # sequence line in FASTQ
-            seq = line.strip()
-            reads += 1
-            lengths.append(len(seq))
+#prints top of table
+print(f"{'ID':<45} {'Len':<8} {'Info'}")
+print("-"*100)
 
-print("Sample:", file)
-print("Reads:", reads)
-print("Avg length:", sum(lengths)/len(lengths))
+#loop goes through file
+
+for record in SeqIO.parse("1_control_18S_2019_minq7 - Copy.fastq", "fastq"):count=count+1
+
+#getting ID
+sample_id = record.id
+
+#getting length
+read_length=len(record.seq)
+
+#getting info
+sample_info=record.description
+
+#printing row of table
+print(f"{record.id:<45} {len(record.seq):<8} {record.description}")
+#summary
+
+print("-"*100)
+print(f"Total Reads: {count}")
