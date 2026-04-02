@@ -1,1 +1,3 @@
 Week 1 Mission Log
+script can be run with
+python3 script.py
