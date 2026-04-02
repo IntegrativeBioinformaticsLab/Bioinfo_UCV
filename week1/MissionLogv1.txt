@@ -1,1 +1,4 @@
 Week 1 Mission Log
+Roles:
+Merryn: Integrator, Scripter, Expression Analyst
+Brissa: Mapper, Variant Hunter, Curator
