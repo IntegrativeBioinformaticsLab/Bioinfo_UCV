@@ -1,29 +1,31 @@
+
+
+
 from Bio import SeqIO
-
-#defining variable
-count=0
+import matplotlib.pyplot as plt
 
 
-#prints top of table
-print(f"{'ID':<45} {'Len':<8} {'Info'}")
-print("-"*100)
+lengths = []
 
-#loop goes through file
+records = list(SeqIO.parse("1_control_18S_2019_minq7 - Copy.fastq", "fastq"))
 
-for record in SeqIO.parse("1_control_18S_2019_minq7 - Copy.fastq", "fastq"):count=count+1
+for record in records:
+    lengths.append(len(record.seq))
 
-#getting ID
-sample_id = record.id
 
-#getting length
-read_length=len(record.seq)
 
-#getting info
-sample_info=record.description
 
-#printing row of table
-print(f"{record.id:<45} {len(record.seq):<8} {record.description}")
-#summary
 
-print("-"*100)
-print(f"Total Reads: {count}")
+#vizualisation
+
+plt.hist(lengths, bins=50, color='skyblue', edgecolor='black')
+plt.yscale('log') # makes us see small baars
+plt.title("Read Length Distribution")
+plt.xlabel("Length (bp)")
+plt.ylabel("Count (Log Scale)")
+plt.savefig("read_length_histogram.png")
+
+#identifying species using BLAST (using first long read)
+SeqIO.write(records[0], "query_for_blast.fasta", "fasta")
+print(f"Graph saved. Total reads analyzed: {len(lengths)}")
+print("File 'query_for_blast.fasta' is ready for BLAST.")
