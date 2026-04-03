@@ -10,7 +10,7 @@ print("-"*100)
 
 #loop goes through file
 
-for record in SeqIO.parse("1_control_18S_2019_minq7 - Copy.fastq", "fastq"):count=count+1
+for record in SeqIO.parse(".fastq", "fastq"):count=count+1
 
 #getting ID
 sample_id = record.id
