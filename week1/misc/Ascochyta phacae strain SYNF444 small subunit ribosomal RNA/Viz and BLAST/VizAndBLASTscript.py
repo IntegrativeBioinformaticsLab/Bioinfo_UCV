@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 lengths = []
 
-records = list(SeqIO.parse(".fastq", "fastq"))
+records = list(SeqIO.parse("1_control_18S_2019_minq7 - Copy.fastq", "fastq"))
 
 for record in records:
     lengths.append(len(record.seq))
