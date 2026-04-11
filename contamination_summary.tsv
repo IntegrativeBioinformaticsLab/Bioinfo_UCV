@@ -1,6 +1,0 @@
-sample_id	p_query_virus	p_query_mito	p_query_bact	p_match_virus	p_match_mito	p_match_bact
-S1_R1	0	0	0	0	0	0	Sample S1_R1 shows no significant virus, mito, or bact contamination at the default gather threshold (50kb).
-S2_R1	0	0	0.06784289014912834	0	0	0.07993071022024252	Sample S2_R1 shows contamination from: bact (p_query=0.06784289014912834, p_match=0.07993071022024252).
-S3_R1	0	0	0.10446267760656394	0	0	0.1291759465478842	Sample S3_R1 shows contamination from: bact (p_query=0.10446267760656394, p_match=0.1291759465478842).
-S4_R1	0	0	0.11242718446601942	0	0	0.1432813659985152	Sample S4_R1 shows contamination from: bact (p_query=0.11242718446601942, p_match=0.1432813659985152).
-S5_R1	0	0	0.11933085501858737	0	0	0.1588715664439495	Sample S5_R1 shows contamination from: bact (p_query=0.11933085501858737, p_match=0.1588715664439495).
