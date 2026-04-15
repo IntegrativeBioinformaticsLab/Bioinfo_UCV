@@ -48,3 +48,85 @@ MN908947.3	 22650	C	 T	75963.6
 MN908947.3	 26480	A	 G	75606.2
 
 In comparison the data in the summaries is very similair but there are differences in the quality scores and depth (freebase summary does not show depth)
+
+Objective 4# 
+
+FLAGSTAT
+S1- 
+
+S2- 
+
+1100000 + 0 in total (QC-passed reads + QC-failed reads)
+1100000 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+999795 + 0 mapped (90.89% : N/A)
+999795 + 0 primary mapped (90.89% : N/A)
+1100000 + 0 paired in sequencing
+550000 + 0 read1
+550000 + 0 read2
+999590 + 0 properly paired (90.87% : N/A)
+999590 + 0 with itself and mate mapped
+205 + 0 singletons (0.02% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5
+
+S3-
+
+1220000 + 0 in total (QC-passed reads + QC-failed reads)
+1220000 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+999814 + 0 mapped (81.95% : N/A)
+999814 + 0 primary mapped (81.95% : N/A)
+1220000 + 0 paired in sequencing
+610000 + 0 read1
+610000 + 0 read2
+999628 + 0 properly paired (81.94% : N/A)
+999628 + 0 with itself and mate mapped
+186 + 0 singletons (0.02% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+S4- 
+
+1380000 + 0 in total (QC-passed reads + QC-failed reads)
+1380000 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+999812 + 0 mapped (72.45% : N/A)
+999812 + 0 primary mapped (72.45% : N/A)
+1380000 + 0 paired in sequencing
+690000 + 0 read1
+690000 + 0 read2
+999624 + 0 properly paired (72.44% : N/A)
+999624 + 0 with itself and mate mapped
+188 + 0 singletons (0.01% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+S5- 
+
+0 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+0 + 0 mapped (N/A : N/A)
+0 + 0 primary mapped (N/A : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
