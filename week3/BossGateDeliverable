@@ -1,0 +1,32 @@
+Objective #1
+
+sample_id	 total_contigs	               total_bp	               longest_contig                   N50	
+S1	   1	                              29903                       29903	                    29903	S1 is the best sample because of low contig amount and less noise in data
+S2   	1331	                          1820855	              29899	                            1574	
+S3	   1324	                        1222109	                  29901	                         960	
+S4    1370	                     1688436	                   29901	                       1394	
+S5	   229	                    2189888	                         66725	                   23262	
+
+Objective #2
+High contamination reduces total mapped contigs. Mapping does not occure because some of the sample genes does not origiante from the reference.
+
+Objective #3  comparing bcf tools with freebayes
+BCF tools
+CHROM/RefName, POS, Ref, Alt, Quality, Depth                                     
+MN908947.3	  2269	 A 	 C	  116.412	245
+MN908947.3	  7297	 T	 G	  114.391	250
+MN908947.3	  7606	 A	 C	  106.412	249
+MN908947.3	  8122	 A	 C	  114.42	249
+MN908947.3	  8946	 A	 T	  108.356	249
+MN908947.3	  10412	 G	 A	  110.42	247
+MN908947.3 	  10727	 A	 C	  101.42	242
+MN908947.3	  13246	 T	 C	  99.4197	249
+MN908947.3 	  15248	 A	 G	  98.4196	249
+MN908947.3	  17603	 T	 G	  102.338	249
+MN908947.3	  18686	 G	 T	  102.42	249
+MN908947.3	  20907	 T	 A	  103.42	248
+MN908947.3	  21578	 G	 C	  97.286	249
+MN908947.3	  22650	 C	 T	  99.4198	245
+MN908947.3	  26480	 A	 G	  98.4196	249
+
+FreeBayes
