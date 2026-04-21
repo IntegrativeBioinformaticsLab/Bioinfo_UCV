@@ -1,3 +1,7 @@
+PART A
+Number of CDS: 12
+Number of proteins: 12
+
 | Accession   | Scientific Name                                      | Description                                                                                                      | Max Score | Total Score | Query Cover | E value | Per. Ident | Acc. Len |
 |------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------|-------------|-------------|---------|------------|----------|
 | OR240419.1 | Severe acute respiratory syndrome coronavirus 2      | isolate SARS-CoV-2/human/CHN/SH-P224-2-Other-city-of-Hubei-Huanggang/2020, complete genome                     | 24410     | 24410       | 100%        | 0       | 100.00%    | 29782    |
@@ -7,3 +11,38 @@
 | OR240503.1 | Severe acute respiratory syndrome coronavirus 2      | isolate SARS-CoV-2/human/CHN/SH-P48-A-2-Shanghai/2020, complete genome                                          | 24410     | 24410       | 100%        | 0       | 100.00%    | 29903    |
 | OU182562.1 | Severe acute respiratory syndrome coronavirus 2      | isolate hCoV-19/Iceland/1571/2020 genome assembly, chromosome: hCoV-19_Iceland_1571_2020                        | 24410     | 24410       | 100%        | 0       | 100.00%    | 29903    |
 | OX089626.1 | Severe acute respiratory syndrome coronavirus 2      | genome assembly, complete genome: monopartite                                                                    | 24410     | 24410       | 100%        | 0       | 100.00%    | 29893    |
+
+
+Identified viral proteins:
+1. ORF8 protein
+
+2. ORF7b protein
+
+3.ORF7a protein
+
+4.ORF6 protein
+
+5.Membrane protein, M, E1 glycoprotein
+
+6.Envelope small membrane protein, E, sM protein
+
+7.ORF3a protein, ORF3a, Accessory protein 3a, Protein 3a, Protein U274, Protein X1
+
+8. Spike glycoprotein (function: )
+
+9.Replicase polyprotein 1a
+
+10.Replicase polyprotein 1a
+
+11. Putative ORF 10
+
+12.Nucleoprotein
+
+
+Spike Protein Functional Summary
+
+- S1 subunit: Binds to host cell receptors (primarily ACE2) to mediate viral attachment. Can also use alternative receptors (e.g., NRP1/NRP2, integrins, ASGR1) and trigger either membrane fusion or endocytosis depending on cleavage state.
+
+- S2 subunit: Drives membrane fusion after activation. Undergoes major conformational changes to fuse viral and host membranes, enabling entry of viral RNA into the host cell.
+
+- S2' subunit: Activated by host protease cleavage (e.g., TMPRSS2 or cathepsins), exposing the fusion peptide and initiating irreversible membrane fusion.
