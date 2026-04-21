@@ -87,3 +87,13 @@ SNP:
 - 29558–29674  
 
 
+| SNP Position | Gene | REF | ALT | In CDS? | Effect |
+|---:|---|---|---|---|---|
+| 920 | ORF1a; ORF1ab | C | T | Yes | Synonymous (L->L) |
+| 2949 | ORF1a; ORF1ab | T | G | Yes | Non-synonymous (I->S) |
+| 7415 | ORF1a; ORF1ab | T | A | Yes | Non-synonymous (Y->N) |
+| 9113 | ORF1a; ORF1ab | C | A | Yes | Non-synonymous (P->T) |
+| 22275 | S | T | G | Yes | Non-synonymous (F->C) |
+| 24233 | S | G | A | Yes | Non-synonymous (G->S) |
+| 29335 | N | T | G | Yes | Non-synonymous (N->K) |
+
