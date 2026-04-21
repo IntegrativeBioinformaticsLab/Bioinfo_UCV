@@ -46,3 +46,44 @@ Spike Protein Functional Summary
 - S2 subunit: Drives membrane fusion after activation. Undergoes major conformational changes to fuse viral and host membranes, enabling entry of viral RNA into the host cell.
 
 - S2' subunit: Activated by host protease cleavage (e.g., TMPRSS2 or cathepsins), exposing the fusion peptide and initiating irreversible membrane fusion.
+
+
+PART B
+
+Number of SNIPS: 7
+SNIPS in CDS: 
+
+CDS: 266–13483
+SNPs:
+- 920
+- 2949
+- 7415
+- 9113
+
+CDS: 266–21555
+SNPs:
+- 920
+- 2949
+- 7415
+- 9113
+
+CDS: 21563–25384
+SNPs:
+- 22275
+- 24233
+
+CDS: 28274–29533
+SNP:
+- 29335
+
+ CDS with No SNPs
+- 25393–26220  
+- 26245–26472  
+- 26523–27191  
+- 27202–27387  
+- 27394–27759  
+- 27756–27887  
+- 27894–28259  
+- 29558–29674  
+
+
