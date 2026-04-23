@@ -110,7 +110,11 @@ PZ279756.1
 MN938384.1
 NC_045512.
 
-3.
-4.
+3. see phylogen tree.png
+4.Our assembled sample: K141_0 Flag=
+Wuhan isolate strain: NC_0455 
+The Wuhan isolate strain in the closest to our sample.
+It does not cluster with recent variations. However, older variations do exhibit clustering with our assembled S1. 
+Evolutionary placement matches BLAST results and branch length is consistent with SNP differences.
 
 
